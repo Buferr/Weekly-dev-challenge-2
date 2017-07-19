@@ -1,0 +1,126 @@
+.body
+{
+	font-size: 16px;
+	margin: 0;
+	padding: 0;
+	font-family: 'Raleway', sans-serif;
+}
+.homepage
+{
+	width: 100%;
+	height: 1000px;
+	background: url("../img/home_bg.jpg") no-repeat right top, #f9f9fb;
+	-webkit-background-size: auto;
+	background-size: auto;
+}
+.header
+{
+	color: #262626;
+	width: 100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 3.125rem 10.3125rem 0 10.3125rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.header__title, .footer__header
+{
+	font-family: 'Pacifico', cursive;
+	font-weight: 400;
+}
+.header__title
+{
+	font-size: 3.125rem;
+	margin: 0;
+}
+.header__nav
+{	
+	width: 34.8125rem;
+}
+.menu
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: space-between;
+}
+.menu__link, .services__link, .gallery__link, .blog__link, .home__link
+{
+	text-decoration: none;
+}
+.menu__link:visited, .services__link:visited, .gallery__link:visited, .blog__link:visited
+{
+	color: #262626;
+}
+.menu__link
+{
+	padding-top: 0.5625rem;
+}
+.menu__link:active
+{
+	color: #ff6033;
+}
+.menu__item
+{
+	font-size: 1rem;
+	font-weight: 700;
+}
+.home
+{
+	color: #262626;
+}
+.home__content
+{
+	margin: 16.125rem 0 0 10.3125rem;
+}
+.home__title
+{
+	font-size: 3.75rem;
+	font-weight: 800;
+	margin: 0;
+
+}
+.home__paragraph
+{
+	width: 23rem;
+	margin: 2.125rem 0 1.9375rem 0;
+}
+.home__link:visited
+{
+	color: #fff;
+}
+.home__button
+{
+	background-color:  #ff6033;
+	box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.5);
+	width: 12.5rem;
+	height: 3.4375rem;
+	font-size: 1.25rem;
+	font-weight: 300;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-transform: uppercase;
+}
+.about
+{
+	margin: 0;
+	height: 700px;
+	background-color:  #00c4c4;
+	background: -webkit-radial-gradient(circle farthest-side at 50%, rgba(0, 196, 196, 0.9) 0%, rgba(0, 183, 183, 0.9) 31%, rgba(0, 173, 173, 0.9) 67%, rgba(0, 156, 156, 0.9) 100%);
+	background: -moz-radial-gradient(circle farthest-side at 50%, rgba(0, 196, 196, 0.9) 0%, rgba(0, 183, 183, 0.9) 31%, rgba(0, 173, 173, 0.9) 67%, rgba(0, 156, 156, 0.9) 100%);
+	background: -o-radial-gradient(circle farthest-side at 50%, rgba(0, 196, 196, 0.9) 0%, rgba(0, 183, 183, 0.9) 31%, rgba(0, 173, 173, 0.9) 67%, rgba(0, 156, 156, 0.9) 100%);
+	background: -ms-radial-gradient(circle farthest-side at 50%, rgba(0, 196, 196, 0.9) 0%, rgba(0, 183, 183, 0.9) 31%, rgba(0, 173, 173, 0.9) 67%, rgba(0, 156, 156, 0.9) 100%);
+	background: radial-gradient(circle farthest-side at 50%, rgba(0, 196, 196, 0.9) 0%, rgba(0, 183, 183, 0.9) 31%, rgba(0, 173, 173, 0.9) 67%, rgba(0, 156, 156, 0.9) 100%);
+}
+.about__header
+{
+	margin: 0;
+}
+.about__title
+{
+	margin: 0;
+}
