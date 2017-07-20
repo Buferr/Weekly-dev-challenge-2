@@ -33,19 +33,23 @@
 	</section>
 <!-- --------------------------- About Us page ---------------------------- -->
 	<section class="about">
-		<header class="about__header"><h2 class="about__title">About Us</h2></header>
-		<p class="about__paragraph">Abore Cahee magna aliqua. Ut enim ad minim beniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute inure dolor in reprehenderit in voluplate velit esse cilium.</p>
-		<p class="about__paragraph">Nim id est laborum. Send ut perspiclatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa quae ab illo inventore.</p>
+		<div class="about__content">
+			<header class="about__header"><h2 class="about__title">About Us</h2></header>
+			<p class="about__paragraph">Abore Cahee magna aliqua. Ut enim ad minim beniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute inure dolor in reprehenderit in voluplate velit esse cilium.</p>
+			<p class="about__paragraph">Nim id est laborum. Send ut perspiclatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa quae ab illo inventore.</p>
+		</div>
 	</section>
 <!---------------------------- Our Services page -------------------------- -->
 	<section class="services">
-		<div class="services__menu">
-			<a href="" class="services__link"><div class="services__button services__button--shoping">Online Shopping</div></a>
-			<a href="" class="services__link"><div class="services__button services__button--product">Quality Product</div></a>
-			<a href="" class="services__link"><div class="services__button services__button--delivery">Domestic &amp; International Delivery</div></a>
-			<a href="" class="services__link"><div class="services__button services__button--organized">Well Organized</div></a>
+		<div class="services__content">
+			<div class="services__menu">
+				<a href="" class="services__link"><div class="services__button services__button--shoping">Online Shopping</div></a>
+				<a href="" class="services__link"><div class="services__button services__button--product">Quality Product</div></a>
+				<a href="" class="services__link"><div class="services__button services__button--delivery">Domestic &amp; International Delivery</div></a>
+				<a href="" class="services__link"><div class="services__button services__button--organized">Well Organized</div></a>
+			</div>
+			<header class="services__header"><h2 class="services__title">Our Services</h2></header>
 		</div>
-		<header class="services__header"><h2 class="services__title">Our Services</h2></header>
 	</section>
  <!-- --------------------------- Gallery page ---------------------------- -->
  	<section class="gallery">
@@ -54,11 +58,11 @@
  			<p class="gallery__paragraph">Consectur adiplsicing elit, sed do elusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo cosequat.</p>
  		</div>
  		<div class="gallery__content2">
-	 		<img src="" alt="apricots on the plate" class="gallery__image gallery__image--1">
-	 		<img src="" alt="milkshake in the glass" class="gallery__image gallery__image--2">
-	 		<img src="" alt="blueberries in the wooden bowl" class="gallery__image gallery__image--3">
-	 		<img src="" alt="balckberries on the table" class="gallery__image gallery__image--4">
-	 		<img src="" alt="fruit on the wooden table" class="gallery__image gallery__image--5">
+	 		<div><img src="img/gallery-img1.png" alt="apricots on the plate" class="gallery__image gallery__image--1"></div>
+	 		<div><img src="img/gallery-img2.png" alt="milkshake in the glass" class="gallery__image gallery__image--2"></div>
+	 		<div><img src="img/gallery-img3.png" alt="blueberries in the wooden bowl" class="gallery__image gallery__image--3"></div>
+	 		<div><img src="img/gallery-img4.png" alt="balckberries on the table" class="gallery__image gallery__image--4"></div>
+	 		<div><img src="img/gallery-img5.png" alt="fruit on the wooden table" class="gallery__image gallery__image--5"></div>
  		</div>
  		<a href="" class="gallery__link"><div class="gallery__button">View more</div></a>
  	</section>
@@ -67,7 +71,7 @@
 		<div class="subscription__content">
 			<header class="subscription__header"><h2 class="subscription__title">Subscribe To Us</h2></header>
 			<p class="subscription__paragraph">Dolor sit amet, consecteur adipisicing elit, sed do eiusmod tempor incidunt ut labore et dolore magna allqua. Ut enim ad minim veniam.</p>
-			<form action="" class="subscription__form"><input type="email" placeholder="Your email address..." class="subscription__form--email"><input type="submit" value="Subcribe" class="subscription__form--subcribe"></form>
+			<form action="" class="subscription__form"><input type="email" placeholder="Your email address..." class="subscription__form--email"><input type="submit" value="Subscribe" class="subscription__form--subscribe"></form>
 		</div>
 	</section>
 <!-- ------------------------------- Blog page ---------------------------- -->
@@ -77,11 +81,11 @@
 			<p class="blog__paragraph">Dolore magna aliqua. Ut enim ad minim beniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit</p>
 		</div>
 		<div class="blog__content2">
-			<a href="" class="blog__link"><div class="blog__tile blog__tile--1"></div></a>
-			<a href="" class="blog__link"><div class="blog__tile blog__tile--2"></div></a>
-			<a href="" class="blog__link"><div class="blog__tile blog__tile--3"></div></a>
+			<a href="" class="blog__link"><div class="blog__tile blog__tile--1"><img src="img/blog1.png" alt=""></div></a>
+			<a href="" class="blog__link"><div class="blog__tile blog__tile--2"><img src="img/blog2.png" alt=""></div></a>
+			<a href="" class="blog__link"><div class="blog__tile blog__tile--3"><img src="img/blog3.png" alt=""></div></a>
 		</div>
-		<div class="blog__view-more">View more</div>
+		<a href="" class="blog__link"><div class="blog__view-more">View more</div></a>
 	</section>
 <!-- ---------------------------- Contact page ---------------------------- -->
 	<section class="contact"> 
@@ -94,7 +98,7 @@
 				<input type="text" placeholder="Your name" class="contact__input contact__input--name">
 				<input type="email" placeholder="Your email" class="contact__input contact__input--email">
 				<input type="text" placeholder="Your phone number" class="contact__input contact__input--phone">
-				<textarea name="" placeholder="Your message..." id="" cols="30" rows="10" class="contact__input contact__input--message"></textarea>
+				<textarea name="" placeholder="Your message..." id="" class="contact__input contact__input--message"></textarea>
 			</form>
 			<address class="address">
 				<h3 class="address__header">Address</h3>
