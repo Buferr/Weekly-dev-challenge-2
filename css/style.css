@@ -17,13 +17,12 @@
 {
 	color: #262626;
 	width: 100%;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 	padding: 3.125rem 11% 0 11%;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+
 }
 .header__title, .footer__header
 {
@@ -47,17 +46,20 @@
 	display: flex;
 	justify-content: space-between;
 }
-.menu__link, .services__link, .gallery__link, .blog__link, .home__link
+.menu__link, .services__link, .gallery__link, .blog__link, .home__link, .header__link
 {
 	text-decoration: none;
+	color: #262626;
 }
-.menu__link:visited, .services__link:visited, .gallery__link:visited, .blog__link:visited
+.menu__link:visited, .services__link:visited, .gallery__link:visited, .blog__link:visited, .header__link:visited
 {
 	color: #262626;
 }
 .menu__link
 {
-	padding-top: 0.5625rem;
+	box-sizing: border-box;
+	padding-top: 14px;
+	height: 34px;
 }
 .menu__link:active
 {
@@ -297,10 +299,6 @@
 	width: 33.75rem;
 	margin-top: 0;
 }
-.subscription__form
-{
-	
-}
 .subscription__form--email
 {
 	box-sizing: border-box;
@@ -326,6 +324,7 @@
 	color:  #fff;
 	font-size: 1.25rem;
 	font-weight: 300;
+	cursor: pointer;
 }
 .blog
 {
@@ -373,7 +372,7 @@
 }
 .contact
 {
-	height: 866px;
+	height: 900px;
 	background: url("../img/contact-bg.jpg") no-repeat;
 	-webkit-background-size: cover;
 	background-size: cover;
@@ -388,10 +387,6 @@
 	text-align: center;
 	margin-top: 100px;
 	margin-bottom: 46px;
-}
-.contact__header
-{
-
 }
 .contact__title
 {
@@ -447,6 +442,21 @@
 {
 	height: 15.625rem;
 }
+.address__header
+{
+	margin: 0;
+	font-size: 1.063rem;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.address__paragraph
+{
+	font-size: 1.25rem;
+	font-weight: 300;
+	font-style: normal;
+	margin-top: 0;
+
+}
 .footer
 {
 	height: 90px;
@@ -472,4 +482,22 @@
 .creators__paragraph--love
 {
 	color: #ff2b58;
+}
+
+.menu__link--active
+{
+	border-top: 5px solid #ff6033;
+	transition: border-width .5s ease-in-out;
+	padding-top: 9px;
+}
+
+.header--fixed
+{
+	position: fixed;
+	padding-top: 0;
+	top: 0;
+	left: 0;
+	background: rgba(249, 249, 251, 0.95);
+	transition: .5s ease-in-out;
+	z-index: 100;
 }
