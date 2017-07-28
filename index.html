@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Weekly dev chaleenge 2</title>
 	<link rel="stylesheet" href="css/style.css">
 	<link href="https://fonts.googleapis.com/css?family=Pacifico|Raleway:400,700,800&amp;subset=latin-ext" rel="stylesheet">
@@ -59,13 +60,15 @@
  			<p class="gallery__paragraph">Consectur adiplsicing elit, sed do elusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo cosequat.</p>
  		</div>
  		<div class="gallery__content2">
-	 		<div><img src="img/gallery-img1.png" alt="apricots on the plate" class="gallery__image gallery__image--1"></div>
-	 		<div><img src="img/gallery-img2.png" alt="milkshake in the glass" class="gallery__image gallery__image--2"></div>
-	 		<div><img src="img/gallery-img3.png" alt="blueberries in the wooden bowl" class="gallery__image gallery__image--3"></div>
-	 		<div><img src="img/gallery-img4.png" alt="balckberries on the table" class="gallery__image gallery__image--4"></div>
-	 		<div><img src="img/gallery-img5.png" alt="fruit on the wooden table" class="gallery__image gallery__image--5"></div>
+	 		<div class="gallery__container gallery__container--1"><img src="img/gallery-img1.png" alt="apricots on the plate" class="gallery__image gallery__image--1"></div>
+	 		<div class="gallery__container gallery__container--2">
+	 			<img src="img/gallery-img3.png" alt="blueberries in the wooden bowl" class="gallery__image gallery__image--3">
+	 			<img src="img/gallery-img4.png" alt="balckberries on the table" class="gallery__image gallery__image--4">
+	 		</div>
+	 		<div class="gallery__container gallery__container--3"><img src="img/gallery-img2.png" alt="milkshake in the glass" class="gallery__image gallery__image--2"></div>
+	 		<div class="gallery__container gallery__container--4"><img src="img/gallery-img5.png" alt="fruit on the wooden table" class="gallery__image gallery__image--5"></div>
  		</div>
- 		<a href="#" class="gallery__link"><div class="gallery__button">View more</div></a>
+ 		<a href="#" class="gallery__link"><div class="gallery__view-more">View more</div></a>
  	</section>
 <!-- -------------------------- Subscription page -------------------------- -->
 	<section class="subscription" id="s">
@@ -82,11 +85,11 @@
 			<p class="blog__paragraph">Dolore magna aliqua. Ut enim ad minim beniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit</p>
 		</div>
 		<div class="blog__content2">
-			<a href="#" class="blog__link"><div class="blog__tile blog__tile--1"><img src="img/blog1.png" alt=""></div></a>
-			<a href="#" class="blog__link"><div class="blog__tile blog__tile--2"><img src="img/blog2.png" alt=""></div></a>
-			<a href="#" class="blog__link"><div class="blog__tile blog__tile--3"><img src="img/blog3.png" alt=""></div></a>
+			<a href="#" class="blog__link"><div class="blog__tile blog__tile--1"><img src="img/blog1.png" alt="" class="blog__image"></div></a>
+			<a href="#" class="blog__link"><div class="blog__tile blog__tile--2"><img src="img/blog2.png" alt="" class="blog__image"></div></a>
+			<a href="#" class="blog__link"><div class="blog__tile blog__tile--3"><img src="img/blog3.png" alt="" class="blog__image"></div></a>
 		</div>
-		<a href="#" class="blog__link"><div class="blog__view-more">View more</div></a>
+		<a href="#" class="blog__link blog__link--view-more"><div class="blog__view-more">View more</div></a>
 	</section>
 <!-- ---------------------------- Contact page ---------------------------- -->
 	<section class="contact" id="c"> 
