@@ -13,7 +13,7 @@ $(window).scroll(function(){
 $(document).ready(function () {
     $(document).on("scroll", onScroll);
     
-    //smoothscroll
+
     $('ul a').on('click', function (e) {
         e.preventDefault();
         $(document).off("scroll");

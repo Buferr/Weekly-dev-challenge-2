@@ -70,6 +70,10 @@
 	font-size: 1rem;
 	font-weight: 700;
 }
+.menu__link:hover
+{
+	color: #ff6033;
+}
 .home
 {
 	color: #262626;
@@ -106,6 +110,10 @@
 	justify-content: center;
 	align-items: center;
 	text-transform: uppercase;
+}
+.home__button:hover
+{
+	background-color: #ba4423;
 }
 .homepage__mouse
 {	
@@ -219,6 +227,10 @@
 	text-align: center;
 	padding-right: 25%;
 }
+.services__button:hover
+{
+	background-color: #efefef;
+}
 .services__button--shoping
 {
 	background: url("../img/shopping-icon.svg") no-repeat 91.5% 1.75rem, url("../img/line.png") no-repeat 75%, #fff;;
@@ -309,6 +321,10 @@
 	align-items: center;
 	margin-top: 50px;
 }
+.gallery__view-more:hover
+{
+	background-color: #4b7791;
+}
 .subscription
 {
 	height: 500px;
@@ -358,6 +374,10 @@
 	font-weight: 300;
 	cursor: pointer;
 }
+.subscription__form--subscribe:hover
+{
+	background-color: #799621;
+}
 .blog
 {
 	height: 864px;
@@ -397,6 +417,10 @@
 .blog__view-more
 {
 	background-color:  #f72b3b;
+}
+.blog__view-more:hover
+{
+	background-color: #ba1f2c;
 }
 .contact
 {
@@ -529,7 +553,28 @@
 	transition: .5s ease-in-out;
 	z-index: 100;
 }
+.to-top__img
+{
+	width: 40px;
+	height: 40px;
 
+}
+.to-top
+{	
+	margin: 0;
+	padding: 0;
+	width: 50px;
+	height: 50px;
+	position: fixed;
+	bottom: 25px;
+	left: 25px;
+	background: #ff6033;
+	justify-content: center;
+	align-items: center;
+	border-radius: 10px;
+	opacity: 0.8;
+	display: none;
+}
 @media screen and (max-width: 1380px)
 {
 	.menu__link--active
@@ -740,6 +785,7 @@
 	.header
 	{
 		padding: 0;
+		position: static;
 	}
 	.header__title
 	{
@@ -752,13 +798,16 @@
 	.menu
 	{
 		flex-wrap: wrap;
-		padding-left: 0.5rem;
+		padding-left:  0.5rem;
 		justify-content: center;
 	}
 	.menu__link
 	{
-		margin-top: 0.5rem;
-		margin-right: 0.5rem;
+		margin: 0.5rem 1rem 1rem 0;
+	}
+	.menu__item
+	{
+		font-size: 1.5rem;
 	}
 	.header__nav
 	{
@@ -779,6 +828,7 @@
 	{
 		padding: 0 0.5rem;
 		box-sizing: border-box;
+		text-align: center;
 	}
 	.about__content
 	{
@@ -853,6 +903,10 @@
 		padding: 0 0.5rem;
 		box-sizing: border-box;
 	}
+	.to-top
+	{
+		display: flex;
+	}
 
 }
 @media screen and (max-width: 600px)
@@ -895,10 +949,6 @@
 }
 @media screen and (max-width: 405px)
 {
-	.header
-	{
-		position: static;
-	}
 	.home__paragraph, .services__title, .contact__content, .contact__paragraph, .blog__image, .blog__link, .blog__tile
 	{
 		width: 100%;
