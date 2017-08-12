@@ -94,7 +94,7 @@
 	width: 23rem;
 	margin: 2.125rem 0 1.9375rem 0;
 }
-.home__link:visited
+.home__link:visited, .home__link
 {
 	color: #fff;
 }
